@@ -1,0 +1,178 @@
+.projects {
+  margin-bottom: 80px;
+}
+
+.project {
+  margin-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.project:hover {
+  scale: 1.02;
+}
+
+.project-title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 72px;
+  color: blanchedalmond;
+}
+
+.project__realhome-bg-img,
+.project__nothing-bg-img,
+.project__toptrip-bg-img {
+  padding: 0 0 50px 50px;
+  height: 550px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-decoration: none;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.project__realhome-bg-img {
+  background-image: url(../resourses/Metrica.png);
+}
+
+.project__nothing-bg-img {
+  background-image: url(../resourses/nothing-ear.png);
+}
+
+.project__toptrip-bg-img {
+  background-image: url(../resourses/toptrip.png);
+}
+
+.project__tag {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 47px;
+  background-color: rgb(109 169 197);
+  border-radius: 100px;
+  color: azure;
+}
+
+.project__name {
+  margin-bottom: 5px;
+  font-size: 35px;
+  line-height: 46px;
+  color: blanchedalmond;
+}
+
+.project__description {
+  color: blanchedalmond;
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.btn-all-projects {
+  display: inline-block;
+  width: 582px;
+  font-size: 30px;
+  line-height: 153px;
+  border-radius: 10px;
+  text-align: center;
+  color: blanchedalmond;
+  background-color: rgb(43, 43, 240);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-all-projects:hover {
+  background-color: blanchedalmond;
+  color: rgb(43, 43, 240);
+}
+
+@media (max-width: 1149px) {
+  .projects {
+    margin-bottom: 64px;
+  }
+
+  .project-title {
+    font-size: 45px;
+    line-height: 58px;
+    margin-bottom: 53px;
+  }
+
+  .project__tag {
+    left: 40px;
+    top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    line-height: 38px;
+  }
+
+  .project__realhome-bg-img,
+  .project__nothing-bg-img,
+  .project__toptrip-bg-img {
+    padding: 0 0 40px 40px;
+    height: 445px;
+  }
+
+  .project__name {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .project__description {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .btn-all-projects {
+    width: 460px;
+    font-size: 25px;
+    line-height: 124px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    margin-bottom: 60px;
+  }
+
+  .project-title {
+    margin-bottom: 34px;
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .project__realhome-bg-img,
+  .project__nothing-bg-img,
+  .project__toptrip-bg-img {
+    padding: 0 0 50px 35px;
+    background-position: left;
+  }
+
+  .project__tag {
+    left: 35px;
+    top: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  .project__description {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .btn-all-projects {
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+  }
+}

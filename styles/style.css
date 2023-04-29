@@ -1,3 +1,11 @@
+@import url(header.css);
+@import url(projects.css);
+@import url(competencies.css);
+@import url(services.css);
+@import url(contacts.css);
+@import url(footer.css);
+@import url(burger.css);
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,343 +16,54 @@ body {
   background-color: black;
 }
 
-header {
-  margin-bottom: 150px;
-  padding-top: 33px;
-  width: 100%;
-  min-width: 1400px;
-  background-image: url(../resourses/header-bg.png);
-  background-position: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .container {
   margin: 0 auto;
-  width: 1153px;
-  min-width: 1150px;
-}
-
-.nav-container {
-  margin-bottom: 252px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: rgb(43, 43, 240);
-  border-radius: 30px;
-}
-
-.logo-link {
-  color: white;
-  text-decoration: none;
-  font-size: 42px;
-  line-height: 55px;
-}
-
-.nav {
-  display: flex;
-}
-
-.nav__link {
-  display: block;
-  margin-right: 50px;
-  color: blanchedalmond;
-  text-decoration: none;
-}
-
-.nav__link:last-child {
-  margin-right: 0;
-}
-
-.header-description {
-  width: 430px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.header-title {
-  margin-top: 29px;
-  padding-bottom: 94px;
-  width: 919px;
-  font-size: 80px;
-  line-height: 70px;
-  color: blanchedalmond;
-}
-
-main {
-  min-width: 1400px;
-}
-
-section {
-  margin: 0 auto;
-  width: 1153px;
-}
-
-.project-title {
-  margin-bottom: 40px;
-  font-size: 55px;
-  line-height: 72px;
-  color: blanchedalmond;
-}
-
-.projects {
-  margin-bottom: 80px;
-}
-
-.project {
   width: 1150px;
-  min-width: 1150px;
-  height: 550px;
-  display: block;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  text-decoration: none;
-  transition: all 0.5s;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.project:hover {
-  scale: 1.02;
-}
-
-.project__name {
-  padding-left: 50px;
-  padding-bottom: 5px;
-  font-size: 35px;
-  line-height: 46px;
-  color: blanchedalmond;
-}
-
-.project__description {
-  padding-bottom: 50px;
-  padding-left: 50px;
-  color: blanchedalmond;
-  font-size: 30px;
-  line-height: 39px;
-}
-
-.realhome-bg-img {
-  background-image: url(../resourses/Metrica.png);
-}
-
-.glass-bg-img {
-  background-image: url(../resourses/glass.png);
-}
-
-.fesiyen-bg-img {
-  background-image: url(../resourses/fesiyen.png);
-}
-
-.btn-all-projects {
-  margin-bottom: 138px;
-  display: inline-block;
-  width: 582px;
-  height: 153px;
-  font-size: 30px;
-  line-height: 153px;
-  border-radius: 10px;
-  text-align: center;
-  color: blanchedalmond;
-  background-color: rgb(43, 43, 240);
-  text-decoration: none;
-  transition: all 0.5s;
-}
-
-.btn-all-projects:hover {
-  background-color: blanchedalmond;
-  color: rgb(43, 43, 240);
-}
-
-.competencies-title {
-  margin-bottom: 48px;
-  font-size: 55px;
-  line-height: 72px;
-  color: blanchedalmond;
-}
-
-.competencies {
-  margin-bottom: 162px;
-}
-
-.competence {
-  margin-bottom: 60px;
-}
-
-.competence:last-child {
-  margin-bottom: 0;
-}
-
-.competence__box {
-  margin-bottom: 12px;
-  width: 45px;
-  height: 44px;
-  background-color: rgb(43, 43, 240);
-  border-radius: 10px;
-  position: relative;
-}
-
-/* .competence__box::after {
-  top: 11px;
-  left: 12px;
-  width: 24px;
-  height: 22px;
-  content: "";
-  position: absolute;
-  background-image: url(../resourses/html-png.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-} */
-
-.icon {
-  padding-top: 11px;
-  padding-left: 11px;
-}
-.library-png {
-  padding-top: 9px;
-  padding-left: 13px;
-}
-
-.adaptive-layout-png {
-  padding-top: 9px;
-  padding-left: 11px;
-}
-
-.competence__name {
-  margin-bottom: 15px;
-  font-size: 35px;
-  line-height: 46px;
-  color: rgb(43, 43, 240);
-}
-
-.competence__text {
-  font-size: 22px;
-  line-height: 29px;
-  color: blanchedalmond;
-}
-
-.services-title {
-  margin-bottom: 74px;
-  font-size: 35px;
-  line-height: 46px;
-  color: blanchedalmond;
-}
-
-.services {
+.header-inner,
+.project-inner,
+.competencies-inner,
+.services-inner {
   margin-bottom: 150px;
 }
 
-.service {
-  margin-bottom: 74px;
+.contacts-inner {
+  margin-bottom: 10px;
 }
 
-.service:last-child {
-  margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+div,
+button {
+  letter-spacing: -0.03em;
 }
 
-.service__img {
-  margin-bottom: -2px;
-  width: 1150px;
-  height: 200px;
+button {
+  font-family: "Philosopher", sans-serif;
 }
 
-.service__wrapper-text {
-  background-color: #191c19;
-  border-radius: 30px;
-  padding: 40px 62px 40px 40px;
+@media (max-width: 1149px) {
+  .container {
+    width: 100%;
+    padding-left: 13px;
+    padding-right: 15px;
+  }
+
+  .services-inner {
+    margin-bottom: 110px;
+  }
 }
 
-.service__name {
-  margin-bottom: 15px;
-  font-size: 55px;
-  line-height: 72px;
-  color: rgb(43, 43, 240);
-}
-
-.service__text {
-  font-size: 22px;
-  line-height: 29px;
-  color: blanchedalmond;
-}
-
-.section-wrapper {
-  margin: 0 auto 150px;
-  min-width: 1400px;
-  height: 717px;
-  background-color: #191c19;
-  border-radius: 30px;
-  position: relative;
-}
-
-.contact-img {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border-radius: 30px;
-}
-
-.contacts-wrapper {
-  margin: 0 auto;
-  width: 1153px;
-  height: 717px;
-  position: relative;
-}
-
-.contact {
-  position: absolute;
-  left: 0;
-  bottom: 89px;
-}
-
-.contact-text {
-  margin-bottom: 28px;
-  font-size: 35px;
-  line-height: 60px;
-  color: blanchedalmond;
-}
-
-.contact__link {
-  margin-bottom: 20px;
-  display: block;
-  font-size: 60px;
-  line-height: 60px;
-  text-decoration: none;
-  color: blanchedalmond;
-}
-
-.footer {
-  margin: 0 auto;
-  width: 1400px;
-  padding-top: 76px;
-  background-color: white;
-  border-radius: 30px 30px 0 0;
-}
-
-.footer-container {
-  width: 1150px;
-  margin: 0 auto;
-}
-
-.footer-description {
-  margin-bottom: 66px;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 30px;
-}
-
-.footer_text-protection {
-  padding-bottom: 20px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  opacity: 0.5;
+@media (max-width: 768px) {
+  .header-inner,
+  .project-inner,
+  .competencies-inner,
+  .services-inner {
+    margin-bottom: 100px;
+  }
 }

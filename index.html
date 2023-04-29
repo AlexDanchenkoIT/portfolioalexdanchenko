@@ -25,220 +25,340 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="nav-container">
-          <div class="logo">
-            <a class="logo-link" href="#">ALEX.D</a>
+      <div class="header-inner">
+        <div class="container">
+          <div class="nav-container">
+            <div class="logo">
+              <a class="logo-link" href="#">ALEX.D</a>
+            </div>
+            <nav>
+              <ul class="nav">
+                <li>
+                  <a class="nav__link" href="#project">Портфолио</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#competencies">Компетенции</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#services">Услуги</a>
+                </li>
+                <li>
+                  <a class="nav__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="js-burger-btn burger-btn">
+              <span></span>
+            </div>
           </div>
-          <nav class="nav">
-            <a class="nav__link" href="#project-title">Портфолио</a>
-            <a class="nav__link" href="#competencies-title">Компетенции</a>
-            <a class="nav__link" href="#services-title">Услуги</a>
-            <a class="nav__link" href="#contacts">Контакты</a>
-          </nav>
+          <p class="header-description">
+            Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+            повышают престиж компании и позволяют выделиться на фоне конкурентов
+          </p>
+          <h1 class="header-title">
+            Привет, я Саша — фронтенд разработчик и дизайнер сайтов
+          </h1>
         </div>
-        <p class="header-description">
-          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
-          повышают престиж компании и позволяют выделиться на фоне конкурентов
-        </p>
-        <h1 class="header-title">
-          Привет, я Саша — фронтенд разработчик и дизайнер сайтов
-        </h1>
+        <div class="js-burger burger">
+          <div class="js-burger__content burger__content">
+            <a class="burger__logo-link" href="/"> ALEX.D </a>
+            <nav>
+              <ul class="burger-nav">
+                <li>
+                  <a class="burger-nav__link" href="#project">Портфолио</a>
+                </li>
+                <li>
+                  <a class="burger-nav__link" href="#competencies"
+                    >Компетенции</a
+                  >
+                </li>
+                <li>
+                  <a class="burger-nav__link" href="#services">Услуги</a>
+                </li>
+                <li>
+                  <a class="burger-nav__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <p class="burger-contacts__title">Для связи:</p>
+            <a class="burger__fone-link" href="tel:+7 978 723-76-64"
+              >+7 978 723-76-64
+            </a>
+            <a
+              class="burger__mail-link"
+              target="_blank"
+              href="https://t.me/Foxpf"
+              >Alex Danchenko
+            </a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
-      <section id="project-title">
-        <h2 class="project-title">Самые свежие проекты</h2>
-        <div class="projects">
-          <a
-            class="project realhome-bg-img"
-            href="https://alexdanchenkoit.github.io/interior-project/"
-            target="_blank"
-          >
-            <h3 class="project__name">МЕТРИКА</h3>
-            <p class="project__description">дизайн,верстка, настройка</p>
-          </a>
-          <a href="/" class="project glass-bg-img">
-            <h3 class="project__name">GLASS</h3>
-            <p class="project__description">разработка интерфейса</p>
-          </a>
-          <a href="/" class="project fesiyen-bg-img">
-            <h3 class="project__name">Fesiyen</h3>
-            <p class="project__description">разработка интерфейса</p>
-          </a>
-        </div>
-        <a href="/" class="btn-all-projects">Смотреть все проекты</a>
-      </section>
-      <section>
-        <h2 class="competencies-title" id="competencies-title">
-          Мои компетенции
-        </h2>
-        <ul class="competencies">
-          <li class="competence">
-            <div class="competence__box">
-              <img
-                class="icon"
-                src="resourses/html-icon.png"
-                alt="графический текст html"
-              />
-            </div>
-            <h3 class="competence__name">HTML и CSS</h3>
-            <p class="competence__text">
-              это основа фронтенд разработки. Умение создавать и правильно<br />
-              структурировать HTML-документы, а также применять стили к этим<br />
-              документам на CSS, является обязательным навыком для каждого<br />
-              фронтенд разработчика.
-            </p>
-          </li>
-          <li class="competence">
-            <div class="competence__box">
-              <img
-                class="icon"
-                src="resourses/js-icon.png"
-                alt="графический текст JavaScript"
-              />
-            </div>
-            <h3 class="competence__name">JavaScript</h3>
-            <p class="competence__text">
-              это язык программирования, который используется для создания<br />
-              динамического и интерактивного пользовательского интерфейса.<br />
-              Хороший фронтенд разработчик должен быть знаком с основами<br />
-              JavaScript, включая работу с DOM-деревом, асинхронными<br />
-              запросами и манипуляцией данными на стороне клиента.
-            </p>
-          </li>
-          <li class="competence">
-            <div class="competence__box">
-              <img
-                class="icon library-png"
-                src="resourses/library-icon.png"
-                alt="графическая рисунок прямоугольник"
-              />
-            </div>
-            <h3 class="competence__name">
-              Работа с библиотеками и фреймворками
-            </h3>
-            <p class="competence__text">
-              фронтенд разработчики должны быть знакомы с различными<br />
-              библиотеками и фреймворками, такими как React, Angular, Vue и<br />
-              другими. Умение использовать готовые решения, адаптировать их<br />
-              под нужды проекта и расширять их функциональность, является<br />
-              очень важным навыком.
-            </p>
-          </li>
-          <li class="competence">
-            <div class="competence__box">
-              <img
-                class="icon adaptive-layout-png"
-                src="resourses/adaptive-layout-icon.png"
-                alt="графическая рисунок прямоугольник"
-              />
-            </div>
-            <h3 class="competence__name">
-              Разработка для мобильных<br />
-              устройств и адаптивная верстка
-            </h3>
-            <p class="competence__text">
-              фронтенд разработчики должны быть знакомы с различными<br />
-              библиотеками и фреймворками, такими как React, Angular, Vue и<br />
-              другими. Умение использовать готовые решения, адаптировать их<br />
-              под нужды проекта и расширять их функциональность, является<br />
-              очень важным навыком.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="services-title" id="services-title">
-          Помогаю реализовать<br />
-          широкий спектр задач
-        </h2>
-        <ul class="services">
-          <li class="service">
-            <img
-              class="service__img"
-              src="resourses/turnkey-website.png"
-              alt="образец сайта"
-            />
-            <div class="service__wrapper-text">
-              <h3 class="service__name">Разработка сайта под ключ</h3>
-              <p class="service__text">
-                Это создание дизайн веб-сайтов, созданный для удобства<br />
-                пользователя и решения бизнес-задач.<br />
-                Сайты должны быть понятными и удобными, ведь чем понятнее
-                сайт,<br />
-                тем быстрее пользователь совершит целевое действие
-              </p>
-            </div>
-          </li>
-          <li class="service">
-            <img
-              class="service__img"
-              src="resourses/site-layout.png"
-              alt="образец сайта"
-            />
-            <div class="service__wrapper-text">
-              <h3 class="service__name">Верстка сайтов</h3>
-              <p class="service__text">
-                Это процесс создания HTML-документов и применения к ним<br />
-                стилей на CSS. Фронтенд разработчик может помочь создать<br />
-                привлекательный и удобный интерфейс для вашего сайта
-              </p>
-            </div>
-          </li>
-          <li class="service">
-            <img
-              class="service__img"
-              src="resourses/mobile-interface.png"
-              alt="образец скриншот приложений"
-            />
-            <div class="service__wrapper-text">
-              <h3 class="service__name">Разработка мобильного интерфейса</h3>
-              <p class="service__text">
-                Это процесс создания интерактивных элементов на странице<br />
-                с помощью JavaScript. Фронтенд разработчик может помочь<br />
-                создать динамический и удобный пользовательский интерфейс<br />
-                для вашего сайта или приложения.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="section-wrapper">
-        <div class="contacts-wrapper" id="contacts">
-          <div class="contact">
-            <p class="contact-text">для связи:</p>
-            <a
-              class="contact__link"
-              href="https://www.instagram.com/san_sanich_b.f/"
-              target="_blank"
-              >instagram</a
-            >
-            <a class="contact__link" href="https://t.me/Foxpf" target="_blank"
-              >telegram</a
-            >
-            <a class="contact__link" href="mailto:foxpf@mail.ru" target="_blank"
-              >mail</a
-            >
-            <a class="contact__link" href="tel:+79787237664"
-              >tel. +7 (978) 723-76-64</a
-            >
+      <section id="project">
+        <div class="container">
+          <div class="project-inner">
+            <h2 class="project-title">Самые свежие проекты</h2>
+            <ul class="projects">
+              <li class="project">
+                <a
+                  class="project__realhome-bg-img"
+                  href="https://alexdanchenkoit.github.io/interior-project/"
+                  target="_blank"
+                >
+                  <div class="project__tag">дизайн интерьера</div>
+                  <h3 class="project__name">МЕТРИКА</h3>
+                  <p class="project__description">верстка, настройка</p>
+                </a>
+              </li>
+              <li class="project">
+                <a href="/" class="project__nothing-bg-img">
+                  <div class="project__tag">презентация продукта</div>
+                  <h3 class="project__name">Nothing</h3>
+                  <p class="project__description">верстка, настройка</p>
+                </a>
+              </li>
+              <li class="project">
+                <a href="/" class="project__toptrip-bg-img">
+                  <div class="project__tag">заказ путешествий</div>
+                  <h3 class="project__name">TOPTRIP</h3>
+                  <p class="project__description">верстка</p>
+                </a>
+              </li>
+            </ul>
+            <a href="/" class="btn-all-projects">Смотреть все проекты</a>
           </div>
         </div>
-        <img
-          class="contact-img"
-          src="resourses/programmer.png"
-          alt="изображен человек за компьютером"
-        />
+      </section>
+      <section id="competencies">
+        <div class="container">
+          <div class="competencies-inner">
+            <h2 class="competencies-title">Мои компетенции</h2>
+            <ul class="competencies">
+              <li class="competence">
+                <div class="competence__box">
+                  <img
+                    class="icon"
+                    src="resourses/html-icon.png"
+                    alt="графический текст html"
+                  />
+                </div>
+                <h3 class="competence__name">HTML и CSS</h3>
+                <p class="competence__description">
+                  это основа фронтенд разработки. Умение создавать и правильно
+                  структурировать HTML-документы, а также применять стили к этим
+                  документам на CSS, является обязательным навыком для каждого
+                  фронтенд разработчика.
+                </p>
+              </li>
+              <li class="competence">
+                <div class="competence__box">
+                  <img
+                    class="icon"
+                    src="resourses/js-icon.png"
+                    alt="графический текст JavaScript"
+                  />
+                </div>
+                <h3 class="competence__name">JavaScript</h3>
+                <p class="competence__description">
+                  это язык программирования, который используется для создания
+                  динамического и интерактивного пользовательского интерфейса.
+                  Хороший фронтенд разработчик должен быть знако JavaScript,
+                  включая работу с DOM-деревом, асинхронными запросами и
+                  манипуляцией данными на стороне клиента.
+                </p>
+              </li>
+              <li class="competence">
+                <div class="competence__box">
+                  <img
+                    class="icon library-png"
+                    src="resourses/library-icon.png"
+                    alt="графическая рисунок прямоугольник"
+                  />
+                </div>
+                <h3 class="competence__name">
+                  Работа с библиотеками и фреймворками
+                </h3>
+                <p class="competence__description">
+                  фронтенд разработчики должны быть знакомы с разл библиотеками
+                  и фреймворками, такими как React, Angular, другими. Умение
+                  использовать готовые решения, адаптиров под нужды проекта и
+                  расширять их функциональность, яв очень важным навыком.
+                </p>
+              </li>
+              <li class="competence">
+                <div class="competence__box">
+                  <img
+                    class="icon adaptive-layout-png"
+                    src="resourses/adaptive-layout-icon.png"
+                    alt="графическая рисунок прямоугольник"
+                  />
+                </div>
+                <h3 class="competence__name">
+                  Разработка для мобильных устройств и адаптивная верстка
+                </h3>
+                <p class="competence__description">
+                  фронтенд разработчики должны быть знакомы с различными
+                  библиотеками и фреймворками, такими как React, Angular, Vue и
+                  другими. Умение использовать готовые решения, адаптировать их
+                  под нужды проекта и расширять их функциональность, является
+                  очень важным навыком.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="container">
+          <div class="services-inner">
+            <h2 class="services-title">
+              Помогаю реализовать<br />
+              широкий спектр задач
+            </h2>
+            <ul class="services">
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="resourses/turnkey-website-mobile.png"
+                  />
+                  <img
+                    class="service__img"
+                    src="resourses/turnkey-website.png"
+                    alt="образец сайта"
+                  />
+                </picture>
+
+                <div class="service__wrapper-text">
+                  <h3 class="service__name">Разработка сайта под ключ</h3>
+                  <p class="service__text">
+                    Это создание дизайн веб-сайтов, созданный для удобства
+                    пользователя и решения бизнес-задач. Сайты должны быть
+                    понятными и удобными, ведь чем понятнее сайт, тем быстрее
+                    пользователь совершит целевое действие
+                  </p>
+                </div>
+              </li>
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="resourses/site-layout-mobile.png"
+                  />
+                  <img
+                    class="service__img"
+                    src="resourses/site-layout.png"
+                    alt="образец сайта"
+                  />
+                </picture>
+                <div class="service__wrapper-text">
+                  <h3 class="service__name">Верстка сайтов</h3>
+                  <p class="service__text">
+                    Это процесс создания HTML-документов и применения к ним
+                    стилей на CSS. Фронтенд разработчик может помочь создать
+                    привлекательный и удобный интерфейс для вашего сайта
+                  </p>
+                </div>
+              </li>
+              <li class="service">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="resourses/mobile-interface-mobile.png"
+                  />
+                  <img
+                    class="service__img"
+                    src="resourses/mobile-interface.png"
+                    alt="образец скриншот приложений"
+                  />
+                </picture>
+
+                <div class="service__wrapper-text">
+                  <h3 class="service__name">
+                    Разработка мобильного интерфейса
+                  </h3>
+                  <p class="service__text">
+                    Это процесс создания интерактивных элементов на странице с
+                    помощью JavaScript. Фронтенд разработчик может помочь
+                    создать динамический и удобный пользовательский интерфейс
+                    для вашего сайта или приложения.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="contacts">
+        <div class="contacts-inner">
+          <div class="container">
+            <div class="contacts-wrapper">
+              <div>
+                <p class="contacts__title">
+                  Для связи со мной заполните простую форму
+                </p>
+                <input
+                  class="contact__input"
+                  type="text"
+                  name="name"
+                  placeholder="Имя Фамилия"
+                />
+                <input
+                  class="contact__input"
+                  type="email"
+                  name="email"
+                  placeholder="exemple@mail.ru"
+                />
+                <button class="btn-contact">Отправить</button>
+              </div>
+              <div class="contact-img"></div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-container">
-        <p class="footer-description">
-          Портфолио фронтенд-разработчика Александра Данченко
-        </p>
-        <p class="footer_text-protection">Все права защищены. 2023</p>
+    <footer>
+      <div class="footer-inner">
+        <div class="container">
+          <div class="footer-wrapper">
+            <p class="footer__title">
+              Портфолио фронтенд-разработчика Александра Данченко
+            </p>
+            <ul class="footer__contacts">
+              <li>
+                <a
+                  class="contact__link"
+                  href="mailto:foxpf@mail.ru"
+                  target="_blank"
+                  >mail</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact__link"
+                  href="https://t.me/Foxpf"
+                  target="_blank"
+                  >telegram</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact__link"
+                  href="https://www.instagram.com/san_sanich_b.f/"
+                  target="_blank"
+                  >instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-copyright">
+            <p class="copyright-text">Все права защищены. 2023</p>
+            <p class="copyright-text">политика обработки данных</p>
+          </div>
+        </div>
       </div>
     </footer>
+    <script src="burger.js"></script>
   </body>
 </html>

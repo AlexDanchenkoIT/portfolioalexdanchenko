@@ -1,0 +1,151 @@
+.contacts-inner {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 86px;
+  max-width: 1400px;
+  background-color: #191c19;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contacts-wrapper {
+  width: 567px;
+  display: flex;
+}
+
+.contacts__title {
+  margin-bottom: 60px;
+  font-size: 60px;
+  line-height: 60px;
+  color: blanchedalmond;
+}
+
+.contact__input {
+  all: unset;
+  padding-left: 40px;
+  margin-bottom: 26px;
+  width: 567px;
+  display: block;
+  font-size: 22px;
+  line-height: 60px;
+  background-color: #3b3d3b;
+  border-radius: 30px;
+}
+
+.btn-contact {
+  all: unset;
+  margin-top: 60px;
+  text-align: center;
+  width: 450px;
+  font-size: 22px;
+  line-height: 70px;
+  color: blanchedalmond;
+  background-color: rgb(43, 43, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn-contact:hover {
+  background-color: blanchedalmond;
+  color: rgb(43, 43, 240);
+}
+
+.contact-img {
+  width: 727px;
+  height: 717px;
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  background-image: url(../resourses/programmer.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+@media (max-width: 1399px) {
+  .contact-img {
+    width: 564px;
+    height: 563px;
+  }
+
+  .contacts-inner {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 1149px) {
+  .contact-img {
+    width: 537px;
+    height: 505px;
+    right: 0;
+    background-image: url(../resourses/programmer-tablet.png);
+  }
+
+  .contacts__title {
+    width: 383px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .contact__input {
+    padding-left: 40px;
+    margin-bottom: 17px;
+    width: 383px;
+    font-size: 16px;
+    line-height: 41px;
+  }
+
+  .btn-contact {
+    margin-top: 40px;
+    width: 304px;
+    font-size: 16px;
+    line-height: 47px;
+  }
+}
+
+@media (max-width: 890px) {
+  .contact-img {
+    display: none;
+  }
+  .contacts-inner {
+    padding-right: 50px;
+  }
+
+  .contacts-wrapper {
+    width: 100%;
+  }
+
+  .contacts__title,
+  .contact__input,
+  .btn-contact {
+    width: 100%;
+  }
+  .contacts__title,
+  .contact__input {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__title {
+    font-size: 35px;
+    line-height: 37px;
+  }
+
+  .contact__input {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 38px;
+  }
+
+  .contacts-inner {
+    padding-bottom: 50px;
+  }
+}
